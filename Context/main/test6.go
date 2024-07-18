@@ -8,6 +8,7 @@ import (
 
 //使用 WithCancel 和 WithValue 写一个级联的使用 Context 的例子，验证一下 parent
 //Context 被 cancel 后，子 conext 是否也立刻被 cancel 了。
+// 测试
 
 func main() {
 	// 创建一个根上下文
